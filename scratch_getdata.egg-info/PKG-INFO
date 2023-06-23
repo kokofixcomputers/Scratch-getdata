@@ -1,8 +1,15 @@
 Metadata-Version: 2.1
 Name: scratch-getdata
-Version: 0.0.3
+Version: 0.0.8
 Summary: A Module to fetch scratch things from ScratchGetData
 Author: kokofixcomputers
+Author-email: kokofixcomputers <none@none.com>
+Project-URL: Homepage, https://github.com/kokofixcomputers/Scratch-getdata
+Project-URL: Bug Tracker, https://github.com/kokofixcomputers/Scratch-getdata/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
 Description-Content-Type: text/markdown
 
 ScratchAPIClient Documentation
@@ -11,6 +18,10 @@ ScratchAPIClient Documentation
 Introduction
 ------------
 The ScratchAPIClient class provides a convenient interface for accessing data from the Scratch API using the "https://scratch-get-data.kokoiscool.repl.co" base URL.
+Github: https://github.com/kokofixcomputers/Scratch-getdata
+
+Install: pip install scratch-getdata
+Import: from scratch_getdata import ScratchAPIClient
 
 Usage
 -----

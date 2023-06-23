@@ -1,5 +1,8 @@
 README.md
+pyproject.toml
 setup.py
+scratch_getdata/__init__.py
+scratch_getdata/api_client.py
 scratch_getdata.egg-info/PKG-INFO
 scratch_getdata.egg-info/SOURCES.txt
 scratch_getdata.egg-info/dependency_links.txt
