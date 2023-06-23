@@ -1,0 +1,7 @@
+README.md
+setup.py
+scratch_getdata.egg-info/PKG-INFO
+scratch_getdata.egg-info/SOURCES.txt
+scratch_getdata.egg-info/dependency_links.txt
+scratch_getdata.egg-info/requires.txt
+scratch_getdata.egg-info/top_level.txt
