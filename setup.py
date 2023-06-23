@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='scratch-getdata',
-    version='0.0.4',
+    name='scratch_getdata',
+    version='0.0.6',
     author='kokofixcomputers',
     description='A Module to fetch scratch things from ScratchGetData',
     long_description_content_type="text/markdown",
