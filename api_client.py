@@ -75,3 +75,8 @@ class ScratchAPIClient:
         response = requests.get(url)
         return response.text.strip()  # Return the Scratch user's country as a string
 
+    def get_studio_title(self, studio_id):
+        url = f"{self.base_url}/get/studio/title/{studio_id}/"
+        response = requests.get(url)
+        return response.text.strip()  # Return the Scratch studio title as string
+
