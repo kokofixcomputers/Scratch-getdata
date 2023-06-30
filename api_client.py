@@ -79,4 +79,8 @@ class ScratchAPIClient:
         url = f"{self.base_url}/get/studio/title/{studio_id}/"
         response = requests.get(url)
         return response.text.strip()  # Return the Scratch studio title as string
-
+        
+    def get_user_exist(self, username):
+        url = f"{self.base_url}/get/user/user-exist/{username}/"
+        response = requests.get(url)
+        return response.text.strip()  # Return the Scratch studio title as string
