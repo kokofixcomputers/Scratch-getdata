@@ -65,6 +65,9 @@ forum_category = client.get_forum_category(post_id)
 15. Retrieving the country of a Scratch user:
 user_country = client.get_scratch_user_country(username)
 
+16. See if a user exist:
+user_country = client.get_user_exist(username)
+
 
 Note: Replace `username` with the desired Scratch username and `project_id` with the desired project ID.
 
